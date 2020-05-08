@@ -1,0 +1,7 @@
+1. How to ingest data
+
+1) Download data from hhttps://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95
+2) move the data from local to dumbo `scp Motor_Vehicle_Collisions_-_Crashes.csv jl10889@dumbo.es.its.nyu.edu:/home/jl10889` 
+3) copy data to HDFS in dumbo  `hdfs dfs -put Motor_Vehicle_Collisions_-_Crashes.csv ./proj`
+
+
